@@ -1,6 +1,8 @@
-# Criando nossos Users --- OBS: Depois que adicionarmos o devise precisamos incluir o email e senha dos users
-User.create name: 'José', status: :active, kind: :salesman
-User.create name: 'Marcos', status: :active, kind: :manager
+# /db/seeds.rb
+
+User.create name: 'José', status: :active, kind: :salesman, email: 'salesman@teste.com', password: 123456
+User.create name: 'Manuel', status: :active, kind: :salesman, email: 'salesman2@cubika.digital', password: 123456
+User.create name: 'Marcos', status: :active, kind: :manager, email: 'brunocorream@gmail.com', password: 123456
 
 # Criando alguns produtos de exemplo
 Product.create name: 'Smartphone', description:'Um smartphone novo ...', status: :active

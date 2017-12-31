@@ -22,6 +22,10 @@ gem 'coffee-rails', '~> 4.2'
 # gem 'therubyracer', platforms: :ruby
 #Rails Admin
 gem 'rails_admin'
+#Devise
+gem 'devise'
+#Cancancan
+gem 'cancancan', '~> 1.15.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
