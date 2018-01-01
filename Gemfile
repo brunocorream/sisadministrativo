@@ -26,6 +26,8 @@ gem 'rails_admin'
 gem 'devise'
 #Cancancan
 gem 'cancancan', '~> 1.15.0'
+#Carrierwave
+gem 'carrierwave'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
